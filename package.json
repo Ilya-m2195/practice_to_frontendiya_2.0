@@ -2,6 +2,7 @@
   "name": "practic_to_frontendiya",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@mantine/core": "^7.2.2",
     "@mantine/hooks": "^7.2.2",
@@ -55,6 +56,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "eslint": "^8.53.0",
